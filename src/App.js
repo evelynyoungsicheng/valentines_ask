@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import ask from './ask.jpeg';
 import yes from './yes.jpeg';
-import success from './success.jpeg';
+import success from './success.png';
 import './App.css';
 {/* COPILOT INSTRUCTIONS 
 Create a valentine's day card using React. The card should have a heart shape and a message that says "Will you be my Valentine?".
