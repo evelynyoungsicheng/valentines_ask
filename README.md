@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# Valentines Ask
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A React application for creating a special Valentine's Day ask.
 
 ## Available Scripts
 
@@ -27,17 +27,42 @@ It correctly bundles React in production mode and optimizes the build for the be
 The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### `npm run deploy`
 
-### `npm run eject`
+Deploys the app to GitHub Pages. This command automatically runs `npm run build` first, then pushes the build files to the `gh-pages` branch.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+**Prerequisites:**
+- Ensure your `package.json` has the correct `homepage` field set to your GitHub Pages URL
+- Make sure you have an SSH key set up for GitHub or have GitHub CLI authentication configured
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Deployment to GitHub Pages
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+This app is configured for automatic deployment to GitHub Pages.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Initial Setup
+
+1. Ensure the `homepage` field in `package.json` is set correctly:
+   ```json
+   "homepage": "https://evelynyoungsicheng.github.io/valentines_ask"
+   ```
+
+2. Enable GitHub Pages in your repository settings:
+   - Go to your repository on GitHub
+   - Navigate to Settings → Pages
+   - Under "Source", select "Deploy from a branch"
+   - Select the `gh-pages` branch and `/root` folder
+   - Save
+
+### Deploying
+
+Simply run:
+```bash
+npm run deploy
+```
+
+This will build your app and push it to the `gh-pages` branch. GitHub Pages will automatically deploy the changes.
+
+Your app will be available at: https://evelynyoungsicheng.github.io/valentines_ask
 
 ## Learn More
 
