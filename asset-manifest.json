@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/valentines_ask/static/css/main.34281171.css",
+    "main.js": "/valentines_ask/static/js/main.5ebe7e1e.js",
+    "static/js/453.798f47be.chunk.js": "/valentines_ask/static/js/453.798f47be.chunk.js",
+    "static/media/yes.jpeg": "/valentines_ask/static/media/yes.c5041d516c11c4b105f8.jpeg",
+    "static/media/success.png": "/valentines_ask/static/media/success.2e80443df7e8cb30d733.png",
+    "static/media/ask.jpeg": "/valentines_ask/static/media/ask.4ffc7c8ce6d51aa00642.jpeg",
+    "index.html": "/valentines_ask/index.html",
+    "main.34281171.css.map": "/valentines_ask/static/css/main.34281171.css.map",
+    "main.5ebe7e1e.js.map": "/valentines_ask/static/js/main.5ebe7e1e.js.map",
+    "453.798f47be.chunk.js.map": "/valentines_ask/static/js/453.798f47be.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.34281171.css",
+    "static/js/main.5ebe7e1e.js"
+  ]
+}
