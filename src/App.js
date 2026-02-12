@@ -53,12 +53,12 @@ return (
   {yesPressed ? (
     <div>
       <img src={yes} className="yes" alt="yes" />
-      <h1>I love you! I knew you would say yes! <br /> Happy Valentine's Day! ❤️</h1>
+      <h1>I love you! <br /> I knew you would say yes! <br /> Happy Valentine's Day! ❤️</h1>
     </div>
   ) : (
     <div>
       <img src={success} className="success" alt="success" />
-      <h1>pookie love ❤️, will you be my valentine?</h1>
+      <h1>pookie love ❤️ <br /> will you be my valentine?</h1>
     <div className="buttons">
       <button className="yes" 
       onClick={handleYesClick} style={{ transform: `scale(${noCount >= 5 ? 2 : 1})` }}>
